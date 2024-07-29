@@ -1,0 +1,45 @@
+{
+  "host": "https://www.memento.knotbin.xyz",
+  "title": "Memento",
+  "description": "Keep that in mind.",
+  "repositoryUrl": "https://github.com/knotbin/memento",
+  "twitter": "@_mementoapp",
+  "pages": {
+    "/": {
+      "title": "Overview",
+      "description": "An app to help you remember the things you save."
+    },
+    "/whats-new": {
+      "title": "What's New",
+      "description": "Discover the newest updates, features, and bug fixes in Memento's latest releases."
+    },
+    "/blog": {
+      "title": "Blog",
+      "description": "The Memento blog is the source for news about Memento. Read project news, get updates, and read about development progress."
+    },
+    "https://apps.apple.com/": {
+      "title": "Download",
+      "description": "Download Memento. An app to help you remember the things you save."
+    },
+    "https://github.com/knotbin/memento": {
+      "title": "GitHub",
+      "description": "Memento GitHub repository"
+    }
+  },
+  "links": {
+    "githubOrg": "https://github.com/knotbin/memento",
+    "githubRepo": "https://github.com/knotbin/memento",
+    "githubProject": "https://github.com/knotbin/memento/issues",
+    "githubSponsor": "https://github.com/knotbin/memento",
+    "download": "https://apps.apple.com/",
+    "twitter": "https://twitter.com/_mementoapp",
+    "discord": "https://discord.gg/vChUXVf9Em",
+    "license": "https://github.com/knotbin/memento/blob/main/LICENSE"
+  },
+  "navigation": [
+    "/",
+    "/whats-new",
+    "/blog",
+    "https://github.com/knotbin/memento"
+  ]
+}
