@@ -53,7 +53,7 @@ const BlogPost = ({ frontmatter, markdownBody, author }) => {
         <meta property="og:description" content={description} />
         <meta
           property="og:image"
-          content={frontmatter.image ?? `${config.host}}/social-preview.jpg`}
+          content={frontmatter.image ?? `${config.host}}/social-preview.png`}
         />
         {!!frontmatter.draft && (
           <meta name="robots" content="noindex,nofollow" />

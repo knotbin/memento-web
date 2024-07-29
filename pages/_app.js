@@ -30,7 +30,7 @@ function App({ Component, pageProps, router }) {
           <>
             <meta property="og:title" content={title} />
             <meta property="og:description" content={description} />
-            <meta property="og:image" content={`${host}/social-preview.jpg`} />
+            <meta property="og:image" content={`${host}/social-preview.png`} />
           </>
         )}
         <meta name="twitter:card" content="summary_large_image" />
