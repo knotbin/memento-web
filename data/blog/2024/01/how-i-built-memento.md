@@ -41,6 +41,11 @@ After moving on from 'Locket', I rethought how I could use these strengths of wi
 At WWDC, I had so many incredibly interesting and thought-provoking conversations and wrote a lot of things down. This resulted in a bunch of notes in the notes app that were completely empty other than the title. It was clear that the Notes app wasn't made for these kinds of quick jots. This is why I added the capability for items first to contain notes added to links, and eventually added the ability to make an item with just a note and no link.
 ### Expanding Scope
 Although currently Memento only supports links and notes, I am working on adding support for photos, and am planning to eventually support any file uploads.
-## Building Memento
-### SwiftData
-SwiftData is incredibly simple and 
+## Thoughts on 'vision'
+As I wrap up the initial version of Memento and move toward a phase mainly of bug fixes, pre-orders, and preparing for launch, I'm thinking about how crazy it is that only a few months ago, I was still scrambling to figure out in my head what the concept would be for the app.
+
+I think the process of creating Memento has shown me how flawed and unrealistic the idea of the 'visionary' is. Ideas change and evolve and many times, they turn out completely different from the original idea, but they are almost always better for it, and someone who feels shackled to their original idea is almost always worse for it. 
+
+Right now, I have so many ideas for the app. So many of them have nothing to do with widgets or notes or links. I don't know if many of these ideas will ever make it into Memento, but I do know that I would be stupid if I didn't explore them out of obligation to an original vision.
+
+But if I ever forget about these ideas or stop trying to explore them, I know I'll have a widget on my home screen to remind me.
