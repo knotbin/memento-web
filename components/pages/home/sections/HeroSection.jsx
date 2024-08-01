@@ -7,6 +7,7 @@ import { Row, Column, Section, Stack } from '@/components/common/layout';
 import Button from '@/components/common/Button';
 import HeroImage from '../HeroImage';
 import { useRouter } from 'next/router';
+import config from '@/data/config';
 
 const ProductIconWrap = styled.div`
   width: 128px;
