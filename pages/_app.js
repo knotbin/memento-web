@@ -12,7 +12,7 @@ function App({ Component, pageProps, router }) {
   const pageData = config.pages[pathname] ?? config.pages['/'];
   const isDefault = defaultPageData === pageData;
   const title = isDefault
-    ? `Memento | An app to help you remember your links`
+    ? `Memento | Your Mental Inbox`
     : `${pageData.title} | Memento`;
   const { description } = pageData;
   const { host } = config;

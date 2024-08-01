@@ -1,13 +1,13 @@
 {
   "host": "https://www.memento.knotbin.xyz",
-  "title": "Memento",
-  "description": "Keep that in mind.",
+  "title": "Memento | Your Mental Inbox",
+  "description": "Memento helps you save and remember your quick ideas.",
   "repositoryUrl": "https://github.com/knotbin/memento",
   "twitter": "@_mementoapp",
   "pages": {
     "/": {
       "title": "Overview",
-      "description": "An app to help you remember the things you save."
+      "description": "Memento is your mental inbox, helping you save and remember your ideas."
     },
     "/whats-new": {
       "title": "What's New",
