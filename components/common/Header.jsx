@@ -413,7 +413,7 @@ function Header() {
                 </MenuToggle>
               </Action>
               <Action>
-                <Button size="sm" onClick={() => router.push("https://apps.apple.com/")}>Download</Button>
+                <Button size="sm" onClick={() => router.push(config.links.download)}>Download</Button>
               </Action>
             </Actions>
           </Menu>

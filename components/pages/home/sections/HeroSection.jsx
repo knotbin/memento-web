@@ -40,7 +40,7 @@ const HeroSection = ({ versionNumber, minimumSystemVersion }) => {
                   <Typography variant="intro-elevated" color="tertiary" gutterBottom>
                     Memento is an app to save ideas you want to revisit with widgets to help you keep them in mind.
                   </Typography>
-                  <Button size="lg" onClick={() => router.push("https://apps.apple.com/")}>Download</Button>
+                  <Button size="lg" onClick={() => router.push(config.links.download)}>Download</Button>
                   <Typography variant="body-reduced" color="tertiary">{ versionNumber } | iOS {minimumSystemVersion ? `${minimumSystemVersion.split(".")[0]}+` : ``}</Typography>
                 </Stack>
               </Column>
