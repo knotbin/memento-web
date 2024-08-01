@@ -4,6 +4,7 @@ import Header from '@/components//common/Header';
 import Site from '@/components/common/Site';
 import '@/styles/globals.css';
 import config from '@/data/config';
+import { Analytics } from "@vercel/analytics/react"
 
 function App({ Component, pageProps, router }) {
   const { pathname, asPath } = router?.state ?? {};
@@ -42,6 +43,7 @@ function App({ Component, pageProps, router }) {
         <Component {...pageProps} />
       </main>
       <Footer />
+      <Analytics />
     </Site>
   );
 }
