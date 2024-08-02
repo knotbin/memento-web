@@ -1,6 +1,6 @@
 ---
-title: "How and why I built Memento, my mental inbox"
-headline: "Why I built Memento, my mental inbox"
+title: "Why I built Memento, a mental inbox"
+headline: "Why I built Memento, a mental inbox"
 subhead: Memento started as simply a widget to surface links, but in the process of creating it, it expanded to an app for recording and revisiting all the small ideas and thoughts you have.
 description: Memento started as simply a widget to surface links, but in the process of creating it, it expanded to an app for recording and revisiting all the small ideas and thoughts you have.
 date: 2024-07-28
