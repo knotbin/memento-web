@@ -39,7 +39,7 @@ const HeroSection = ({ versionNumber, minimumSystemVersion }) => {
                     Your mental inbox.
                   </Typography>
                   <Typography variant="intro-elevated" color="tertiary" gutterBottom>
-                    Memento is an app to save ideas you want to revisit with widgets to help you keep them in mind.
+                    Memento is an app to save ideas you want to revisit with widgets that help you keep them in mind.
                   </Typography>
                   <Button size="lg" onClick={() => router.push(config.links.download)}>Download</Button>
                   <Typography variant="body-reduced" color="tertiary">{ versionNumber } | iOS {minimumSystemVersion ? `${minimumSystemVersion.split(".")[0]}+` : ``}</Typography>
