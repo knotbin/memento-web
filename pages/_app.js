@@ -34,6 +34,7 @@ function App({ Component, pageProps, router }) {
             <meta property="og:image" content={`${host}/social-preview.png`} />
           </>
         )}
+        <meta name="apple-itunes-app" content="app-id=6541765296"></meta>
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@_memento" />
         <meta name="twitter:creator" content="@_memento" />
