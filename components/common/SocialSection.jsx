@@ -3,7 +3,7 @@ import AppStoreSvg from '@/assets/app-store.svg'
 import Typography from '@/components/common/Typography';
 import { Grid, GridItem, Section, Stack } from '@/components/common/layout';
 import TwitterSvg from '@/assets/twitter-icon.svg'
-import DiscordSvg from '@/assets/discord-icon.svg'
+import IGSvg from '@/assets/ig-icon.svg'
 import GitHubSvg from '@/assets/github-icon.svg'
 import config from '@/data/config';
 
@@ -11,7 +11,7 @@ const TwitterIcon = styled(TwitterSvg)`
   width: 48px;
   height: 48px;
 `
-const DiscordIcon = styled(DiscordSvg)`
+const IGIcon = styled(IGSvg)`
   width: 48px;
   height: 48px;
 `
@@ -41,13 +41,13 @@ const SocialSection = () => {
         </GridItem>
         <GridItem>
           <Stack gap={1} align="center" style={{ textAlign: 'center' }}>
-            <DiscordIcon />
-            <Typography variant="headline-body">Join the conversation</Typography>
+            <IGIcon />
+            <Typography variant="headline-body">See what we're up to</Typography>
             <Typography variant="body-reduced">
-              Join to discuss Memento, to ask for any help 
-              from the community, or to influence Memento.
+            Follow us on Instagram to stay updated on Memento’s outreach and 
+            marketing efforts.
             </Typography>
-            <Typography variant="body-reduced"><a href={config.links.discord}>Start a conversation</a></Typography>
+            <Typography variant="body-reduced"><a href={config.links.instagram}>Start a conversation</a></Typography>
           </Stack>
         </GridItem>
         <GridItem>
