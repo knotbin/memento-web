@@ -1,6 +1,5 @@
 import styled, { css, keyframes } from "styled-components"
 import Image from "next/image";
-import HardwareLockup from "./HardwareLockup";
 import { useSite } from '@/components/common/Site';
 import { mediaQueries } from '@/styles/breakpoints';
 
@@ -126,16 +125,6 @@ const ColorFlair3 = styled(ColorFlair)`
     animation-duration: 5000ms;
   }
 `;
-const StyledHardwareLockup = styled(HardwareLockup)`
-  margin-top: -45%;
-  margin-left: -112px;
-  margin-right: -112px;
-  @media ${mediaQueries.md} {
-    margin-top: -37%;
-    margin-left: 0;
-    margin-right: 0;
-  }
-`
 
 const HeroImage = ({ percentage }) => {
   const { colorScheme = "light", breakpoint } = useSite();
